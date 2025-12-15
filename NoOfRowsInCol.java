@@ -6,7 +6,7 @@ public class NoOfRowsInCol {
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		System.out.println("Enter the name of Database:");
 		String database=sc.nextLine();
 		System.out.println("Connecting to "+database+"..");
